@@ -1,0 +1,75 @@
+/*elements base setting*/
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*scollbar*/
+::-webkit-scrollbar {
+  width: 0.6vw;
+  height: 0.6vw;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00aff0;
+}
+
+.c-body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.c-bg-white {
+  border: 1px solid #EEEEEE;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.c-ul-table {
+  display: block;
+  width: 500px;
+  margin: 10px auto;
+  border: 1px solid #CCCCCC;
+  border-radius: 0.5rem;
+}
+
+.c-ul-table > li {
+  margin: 5px 0;
+  padding:2px 40px;
+  list-style: none;
+  display: block;
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 5px;
+}
+
+.c-ul-table > li > div:first-child{
+  display: inline-block;
+  width:100px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.c-ul-table > li > div:last-child{
+  display: inline-block;
+  width: 280px;
+  text-align: left;
+}
+.c-ul-table > li > div:last-child > span{
+  color: deeppink;
+}
